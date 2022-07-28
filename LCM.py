@@ -1,9 +1,11 @@
 a,b=map(int,input().split())
-maxi=max(a,b)
-m=maxi
+c=max(a,b)
+d=min(a,b)
+m=c
 while True:
-    if m%a==0 and m%b==0:
-        lcm=m
+    if m%d==0:
+        print(m)
         break
-    m=m+maxi
-print(lcm)
+    else:
+        m+=c
+        
