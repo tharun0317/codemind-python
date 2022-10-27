@@ -1,6 +1,9 @@
 n=int(input())
-while n:
-    for j in range(1,n+1):
-        print(j,end="")
-    n-=1
+t=1
+a=n
+while a:
+    for i in range(1,t+1):
+        print(i,end="")
+    t+=1
+    a-=1
     print()
